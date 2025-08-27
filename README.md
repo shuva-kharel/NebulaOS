@@ -1,74 +1,136 @@
-# Welcome to your Lovable project
+# 🌌 NebulaOS
 
-## Project info
+A complete browser-based operating system — blending retro hacker vibes with modern web technology, all inside a safe sandbox.
 
-**URL**: https://lovable.dev/projects/c2eecc54-617a-41e5-a42d-a967ff6050d5
+Experiment, learn, and play without risk to your real machine — a desktop environment in your browser tab.
 
-## How can I edit this code?
+## 🚀 Core Concept
 
-There are several ways of editing your application.
+- **🖥️ Browser-Based OS** — full desktop environment running entirely in your browser
+- **🎨 Retro-Futuristic Design** — 90s hacker aesthetic fused with glass morphism
+- **🔒 Safe Sandbox** — experiment without touching your real system
+- **📚 Educational Tool** — practice terminal commands and development safely
 
-**Use Lovable**
+## 🖥️ Desktop Environment
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c2eecc54-617a-41e5-a42d-a967ff6050d5) and start prompting.
+- **📂 Window Manager** — draggable, resizable windows with minimize/close
+- **🪟 Taskbar** — launcher + running window management
+- **🖱️ Desktop Icons** — double-click to launch apps
+- **🎭 Theme System** — light/dark + retro-futurism toggle
+- **✨ Animations** — smooth transitions & micro-interactions
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📱 Built-in Applications
 
-**Use your preferred IDE**
+### 🖥️ Terminal
+- Bash-like interface with commands: `ls`, `cd`, `cat`, `mkdir`, `touch`, `rm`, `echo`, `pwd`, `js`
+- Virtual file system with persistent storage
+- Execute JavaScript with `js` command
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💻 Code Editor
+- Monaco Editor (VS Code engine)
+- Syntax highlighting for multiple languages
+- File system integration
+- Live code execution with output panel
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🌐 Browser
+- Load external sites (Google, YouTube, etc.)
+- Render local HTML files from virtual FS
+- Navigation: back, forward, refresh, home
 
-Follow these steps:
+### 📝 Notepad
+- Rich text + markdown support
+- Live markdown preview (split-pane)
+- File system integration
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎵 Music Player
+- Upload/play local audio files
+- Full playback controls
+- Playlist management
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🖼️ Image Viewer
+- PNG, JPG, and more supported
+- Zoom, rotate, brightness, contrast
+- Smooth transformations
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🎮 Fun Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 💀 Chaos Mode (Easter Egg)
+- Triggered with `rm -rf /`
+- Fake meltdown animation + glitch effects
+- Harmless prank — shows sandbox safety
+- Unlocks "Chaos Survivor" badge
+
+### 🏆 Achievement System
+- Track command usage
+- Unlock milestones:
+  - 🗂️ Explorer – first `ls`
+  - 🐱 Cat Master – `cat` 10 times
+  - 📝 File Creator – first `touch`
+  - 📂 Directory Master – 5 directories
+  - ☠️ Chaos Survivor – meltdown
+
+## 🎨 Visual Design
+
+- **🪟 Glass Morphism** — translucent windows + backdrop blur
+- **🌌 Aurora & Obsidian themes**
+- **📺 Retro Scanlines** — optional CRT overlay
+- **🌈 Glow Effects** — neon-like highlights
+- **🎞️ Smooth Animations** — hover, transitions, loading
+
+## 🛠️ Technical Architecture
+
+- **Framework**: React + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Window Management**: React draggable/resizable system
+- **File System**: localStorage-based persistence
+- **Themes**: CSS custom properties with saved preferences
+
+## 💾 Data Persistence
+
+- **📂 Files saved between sessions**
+- **🎭 User preferences stored (themes, positions)**
+- **🏆 Achievement progress tracked**
+- **📱 App state persistence**
+
+## 🌟 Why It's Special
+
+- **🌍 Zero Installation** — runs in any modern browser
+- **🔒 Completely Safe** — no access to your real files
+- **🎮 Highly Interactive** — feels like a real desktop OS
+- **🧑‍🏫 Educational** — great for teaching terminal basics
+- **🎨 Nostalgic + Modern** — 90s hacker vibes with glassy UI
+
+## ⚙️ Installation & Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/shuva-kharel/NebulaOS
+cd NebulaOS
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+# Open in browser
+http://localhost:3000
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 👩‍💻 Built With
 
-**Use GitHub Codespaces**
+- **Frontend**: React.js (Vite + TypeScript)
+- **Styling**: TailwindCSS
+- **Editor**: Monaco Editor
+- **State**: Context API
+- **Animations**: Framer Motion
+- **Persistence**: localStorage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧠 Inspiration
 
-## What technologies are used for this project?
+NebulaOS is inspired by retro hacker culture and the dream of running a whole OS inside a browser tab. It's both educational and fun, proving how far web tech can go.
 
-This project is built with:
+## ✍️ Made with 
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c2eecc54-617a-41e5-a42d-a967ff6050d5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-"# code1" 
+caffeine ☕ by [Shuva_Kharel](https://github.com/shuva-khare)
